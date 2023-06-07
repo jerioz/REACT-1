@@ -1,11 +1,11 @@
-import Home from '../components/Home/Home'
-import Heather from '../components/Heather/Heather'
+import Home from '../components/home'
+import Header from '../components/header'
 import './App.css'
 
 function App() {
   return (
     <div>
-      <Heather />
+      <Header />
       <Home />
     </div>
   )
