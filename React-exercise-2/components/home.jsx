@@ -15,7 +15,11 @@ const Home = () => {
             <li>HTML</li>
             <li>CSS</li>
         </ul>
+      <div className='photo'>
        <img src={Photo} alt='logo' className='home_photo'/>
+       <img src={Photo} alt='logo' className='home_photo'/>
+       <img src={Photo} alt='logo' className='home_photo'/>
+      </div>
     </div>
   )
 }

@@ -28,7 +28,10 @@ a:hover {
 .home {
     text-align: center;
   }
-  
+  .photo {
+    display: flex;
+    justify-content: space-around;
+  }  
   .home_photo {
     width: 200px;
     height: 200px;
