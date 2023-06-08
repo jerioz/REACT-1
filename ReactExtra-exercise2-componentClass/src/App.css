@@ -1,0 +1,53 @@
+:root {
+  background-color: grey;
+}
+.header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+.header_title {
+  margin: 0;
+}
+.header_nav-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header_nav-li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header_nav-li a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+}
+.home {
+  text-align: center;
+}
+.photo {
+  display: flex;
+  justify-content: space-around;
+}
+.home_photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.home_title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.home_description {
+  font-size: 16px;
+}
+.home_ul {
+  list-style: none;
+}
+
